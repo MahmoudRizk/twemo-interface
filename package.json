@@ -2,9 +2,11 @@
   "name": "twemo-interface",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mahmoudrizk.github.io/twemo-interface",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "fusioncharts": "^3.13.5-sr.1",
+    "gh-pages": "^2.0.1",
     "mdbreact": "^4.16.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
@@ -18,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
