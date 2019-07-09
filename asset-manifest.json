@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/twemo-interface/static/css/main.7fc9de20.chunk.css",
+    "main.js": "/twemo-interface/static/js/main.1333c5f2.chunk.js",
+    "main.js.map": "/twemo-interface/static/js/main.1333c5f2.chunk.js.map",
+    "runtime~main.js": "/twemo-interface/static/js/runtime~main.a5154452.js",
+    "runtime~main.js.map": "/twemo-interface/static/js/runtime~main.a5154452.js.map",
+    "static/js/2.1377fdb4.chunk.js": "/twemo-interface/static/js/2.1377fdb4.chunk.js",
+    "static/js/2.1377fdb4.chunk.js.map": "/twemo-interface/static/js/2.1377fdb4.chunk.js.map",
+    "index.html": "/twemo-interface/index.html",
+    "precache-manifest.babf8e718e13760999e94d37e7da4257.js": "/twemo-interface/precache-manifest.babf8e718e13760999e94d37e7da4257.js",
+    "service-worker.js": "/twemo-interface/service-worker.js",
+    "static/css/main.7fc9de20.chunk.css.map": "/twemo-interface/static/css/main.7fc9de20.chunk.css.map",
+    "static/media/logo.svg": "/twemo-interface/static/media/logo.5d5d9eef.svg"
+  }
+}
