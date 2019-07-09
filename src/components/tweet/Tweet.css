@@ -1,0 +1,45 @@
+.tweet{
+  margin: 0px 0px 10px 0px;
+}
+
+.cardFooter{
+  padding: 0px 0px 0px 0px;
+}
+
+.tweet-body{
+  background: #fcfcfc;
+
+}
+
+#leftbox {
+  float:left;
+  background:#d1f2d0;
+  width:50%;
+  height:100%;
+  padding: 0px;
+  /*border-style: solid;*/
+  /*border-color: coral;*/
+}
+
+#rightbox{
+  float:right;
+  background:#f2d0d0;
+  width:50%;
+  height:100%;
+  padding: 0px;
+}
+
+.cardPosScore{
+  /*height: 100%;*/
+  margin: 0px 0px 0px 20px;
+  width: 40%;
+  text-align: center;
+  /*background: black;*/
+}
+
+.cardNegScore{
+  margin: 0px 0px 0px 130px;
+  width: 40%;
+  text-align: center;
+  /*background: black;*/
+}

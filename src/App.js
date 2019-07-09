@@ -1,26 +1,45 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Navbar, Nav, NavItem, Dropdown, Container} from 'react-bootstrap';
+
+
+import Trends from './components/pages/Trends'
+import BrowseHashtag from './components/pages/BrowseHashtag'
+
+import {GoMarkGithub} from "react-icons/go";
+
+export class App extends Component {
+  render(){
+    return(
+      <body>
+        <header>
+          <Container>
+            <Navbar>
+              <Navbar.Brand href="/">Twemo</Navbar.Brand>
+              <Nav className="mr-auto">
+                <Nav.Link href="/">Home</Nav.Link>
+              </Nav>
+            </Navbar>
+          </Container>
+        </header>
+        <main>
+          <Router>
+            <Route exact path="/" component={Trends} />
+            <Route exact path="/BH/:handle" component={BrowseHashtag} />
+          </Router>
+        </main>
+        <footer>
+          <h4>
+            <a className="github-link" href="https://www.github.com"><GoMarkGithub/></a>
+          </h4>
+        </footer>
+      </body>
+    );
+  }
+
 }
 
 export default App;
